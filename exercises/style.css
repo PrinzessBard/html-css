@@ -1,0 +1,73 @@
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.all-inboxes {
+	width: 350px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 0.5px solid rgba(97, 97, 97, 0.2);
+	border-radius: 3px;
+	box-shadow: 0.5px 0.5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.inbox-label {
+	margin-left: 10px;
+	font-size: 13px;
+	color: rgb(97, 97, 97);
+}
+
+.letter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 13px;
+}
+
+.sender-picture-container {
+	margin-right: 10px;
+}
+
+.sender-picture {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.data {
+	flex: 1;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sender-name {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.send-time {
+	font-size: 12px;
+	color: rgb(97, 97, 97);
+}
+
+.subject {
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+.message {
+	font-size: 12px;
+	color: rgb(97, 97, 97);
+}
+
